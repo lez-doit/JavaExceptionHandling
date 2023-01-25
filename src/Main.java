@@ -20,5 +20,9 @@ public class Main {
         catch (InputMismatchException e) {
             System.out.println("You can type only numbers!");
         }
+        finally {
+            System.out.println("This will always print");
+            scanner.close();
+        }
     }
 }
