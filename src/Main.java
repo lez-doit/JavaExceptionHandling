@@ -18,7 +18,7 @@ public class Main {
             System.out.println("You cant divide by zero!");
         }
         catch (InputMismatchException e) {
-            System.out.println("Type only numbers!");
+            System.out.println("You can type only numbers!");
         }
     }
 }
